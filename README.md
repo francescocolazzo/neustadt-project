@@ -1,5 +1,5 @@
 
-# Laravel 11 test-swc
+# Laravel 11 Web-app Neustadt
 
 ## Goals
 
