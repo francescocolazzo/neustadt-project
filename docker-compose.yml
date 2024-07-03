@@ -16,7 +16,7 @@ services:
         networks: 
             - laravel
 
-    mysql:
+    mysql: 
         image: mysql
         container_name: mysql
         restart: unless-stopped

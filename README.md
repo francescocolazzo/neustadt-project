@@ -30,4 +30,4 @@ make run-app
 - composer install && npm install && chmod -R 777 storage && php artisan key:generate && php artisan migrate:fresh --seed &&  php artisan storage:link
 
 
-* Web app available at http://localhost:3000/
+* Web app available at http://localhost:3000/ 

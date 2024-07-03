@@ -8,13 +8,10 @@ use App\Services\CardService;
 use App\Repositories\CardRepository;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\Response;
-use Illuminate\Pagination\LengthAwarePaginator;
-use Illuminate\Pagination\Paginator;
 use Mockery;
 use Tests\TestCase;
 
-class CardControllerTest
-extends TestCase
+class CardControllerTest extends TestCase
 {
     use RefreshDatabase;
 
@@ -148,7 +145,7 @@ extends TestCase
                     'scryfall_card_id' => 'iqijss223ji2i222k2w',
                     'name'             => 'Test Card',
                     'set'              => 'Test Set',
-                    'image_path' => [ 'small' => 'path/to/image.jpg']
+                    'image_path' => ['small' => 'path/to/image.jpg']
                 ]
             ]
         ];

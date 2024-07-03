@@ -11,4 +11,4 @@ shell-mysql:
 	docker exec -it  mysql /bin/sh
 
 shell-react:
-	docker exec -it  react /bin/sh
+	docker exec -it  react /bin/sh 

@@ -24,7 +24,7 @@ COPY config/supervisor.conf /etc/supervisor/conf.d/supervisord.conf
  
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
-USER root
+USER root 
 
 RUN chmod 777 -R /var/www/app
 

@@ -10,4 +10,4 @@ COPY neustadt_front/ ./
 
 EXPOSE 3000
 
-CMD [ -d "node_modules" ] && npm start || npm ci && npm start
+CMD [ -d "node_modules" ] && npm start || npm ci && npm start 
