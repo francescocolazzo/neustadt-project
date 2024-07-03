@@ -19,7 +19,7 @@
 To get started with this project, you will need to have on your local machine Docker Desktop (`https://www.docker.com/products/docker-desktop`).
 
 * Makefile described below is usefull for operating systems of the UNIX family.
-To build and run the project, through the terminal enter into project directory and launch the command
+To build and run the project, through the terminal enter into project directory and launch the command:
 make run-app
 
 
