@@ -1,0 +1,13 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY /neustadt_front/package*.json  ./
+
+RUN npm install
+
+COPY /neustadt_front .
+
+EXPOSE 3000
+
+CMD [ "npm","start" ]

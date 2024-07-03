@@ -1,0 +1,25 @@
+/* .colourful-dropdown .dropdown-toggle {
+    background-color:  rgb(173 230 233);
+    ;
+    color: white;
+  }
+  
+  .colourful-dropdown .dropdown-menu {
+    background-color:  rgb(173 230 233);
+
+  }
+  
+  .colourful-dropdown .dropdown-item {
+    color: white;
+  }
+  
+  .colourful-dropdown .dropdown-item:hover,
+  .colourful-dropdown .dropdown-item:focus {
+    background-color:  rgb(173 230 233);
+
+  } */
+  
+
+  .rounded-dropdown {
+    border-radius: 8px;
+  }

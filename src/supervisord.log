@@ -1,0 +1,181 @@
+2024-07-02 07:35:38,477 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 07:35:38,480 INFO supervisord started with pid 1
+2024-07-02 07:35:39,485 INFO spawned: 'horizon_00' with pid 28
+2024-07-02 07:35:39,487 INFO spawned: 'php-fpm' with pid 29
+2024-07-02 07:35:41,045 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 07:35:41,046 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 07:44:39,452 INFO reaped unknown pid 100 (terminated by SIGINT)
+2024-07-02 10:48:05,170 WARN received SIGQUIT indicating exit request
+2024-07-02 10:48:05,177 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 10:48:05,199 INFO stopped: php-fpm (exit status 0)
+2024-07-02 10:48:07,319 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 11:02:28,731 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 11:02:28,738 INFO supervisord started with pid 1
+2024-07-02 11:02:29,745 INFO spawned: 'horizon_00' with pid 28
+2024-07-02 11:02:29,747 INFO spawned: 'php-fpm' with pid 29
+2024-07-02 11:02:31,513 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 11:02:31,513 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 11:05:06,573 INFO reaped unknown pid 89 (exit status 0)
+2024-07-02 11:06:53,239 INFO reaped unknown pid 104 (exit status 0)
+2024-07-02 11:10:50,107 INFO reaped unknown pid 125 (exit status 0)
+2024-07-02 11:18:28,098 WARN received SIGQUIT indicating exit request
+2024-07-02 11:18:28,104 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 11:18:28,119 INFO stopped: php-fpm (exit status 0)
+2024-07-02 11:18:30,173 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 11:18:54,764 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 11:18:54,770 INFO supervisord started with pid 1
+2024-07-02 11:18:55,774 INFO spawned: 'horizon_00' with pid 28
+2024-07-02 11:18:55,775 INFO spawned: 'php-fpm' with pid 29
+2024-07-02 11:18:57,368 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 11:18:57,369 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 12:29:54,338 WARN received SIGQUIT indicating exit request
+2024-07-02 12:29:54,346 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 12:29:54,386 INFO stopped: php-fpm (exit status 0)
+2024-07-02 12:29:57,464 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 12:30:04,268 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 12:30:04,273 INFO supervisord started with pid 1
+2024-07-02 12:30:05,278 INFO spawned: 'horizon_00' with pid 7
+2024-07-02 12:30:05,282 INFO spawned: 'php-fpm' with pid 8
+2024-07-02 12:30:06,887 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 12:30:06,888 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 12:36:11,323 WARN received SIGQUIT indicating exit request
+2024-07-02 12:36:11,326 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 12:36:11,344 INFO stopped: php-fpm (exit status 0)
+2024-07-02 12:36:14,423 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 12:36:39,567 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 12:36:39,594 INFO supervisord started with pid 1
+2024-07-02 12:36:40,598 INFO spawned: 'horizon_00' with pid 29
+2024-07-02 12:36:40,599 INFO spawned: 'php-fpm' with pid 30
+2024-07-02 12:36:42,095 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 12:36:42,096 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 18:09:57,446 INFO reaped unknown pid 538 (terminated by SIGINT)
+2024-07-02 20:15:06,062 WARN received SIGQUIT indicating exit request
+2024-07-02 20:15:06,075 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 20:15:06,090 INFO stopped: php-fpm (exit status 0)
+2024-07-02 20:15:08,197 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 20:15:35,104 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 20:15:35,108 INFO supervisord started with pid 1
+2024-07-02 20:15:36,114 INFO spawned: 'horizon_00' with pid 28
+2024-07-02 20:15:36,118 INFO spawned: 'php-fpm' with pid 29
+2024-07-02 20:15:37,939 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 20:15:37,940 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 20:20:56,830 WARN received SIGQUIT indicating exit request
+2024-07-02 20:20:56,832 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 20:20:56,846 INFO stopped: php-fpm (exit status 0)
+2024-07-02 20:20:58,878 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 20:21:16,248 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 20:21:16,253 INFO supervisord started with pid 1
+2024-07-02 20:21:17,260 INFO spawned: 'horizon_00' with pid 7
+2024-07-02 20:21:17,265 INFO spawned: 'php-fpm' with pid 8
+2024-07-02 20:21:18,752 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 20:21:18,752 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 20:27:31,692 WARN received SIGQUIT indicating exit request
+2024-07-02 20:27:31,695 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 20:27:32,712 INFO stopped: php-fpm (exit status 0)
+2024-07-02 20:27:34,722 INFO waiting for horizon_00 to die
+2024-07-02 20:27:34,742 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 20:28:36,120 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 20:28:36,125 INFO supervisord started with pid 1
+2024-07-02 20:28:37,136 INFO spawned: 'horizon_00' with pid 28
+2024-07-02 20:28:37,139 INFO spawned: 'php-fpm' with pid 29
+2024-07-02 20:28:39,070 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 20:28:39,071 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 21:27:13,955 WARN received SIGQUIT indicating exit request
+2024-07-02 21:27:13,959 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 21:27:13,976 INFO stopped: php-fpm (exit status 0)
+2024-07-02 21:27:16,041 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 21:27:45,103 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 21:27:45,113 INFO supervisord started with pid 1
+2024-07-02 21:27:46,124 INFO spawned: 'horizon_00' with pid 28
+2024-07-02 21:27:46,127 INFO spawned: 'php-fpm' with pid 29
+2024-07-02 21:27:48,029 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 21:27:48,030 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 21:45:29,238 WARN received SIGQUIT indicating exit request
+2024-07-02 21:45:29,241 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 21:45:30,256 INFO stopped: php-fpm (exit status 0)
+2024-07-02 21:45:32,261 INFO waiting for horizon_00 to die
+2024-07-02 21:45:32,296 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 21:45:41,860 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 21:45:41,873 INFO supervisord started with pid 1
+2024-07-02 21:45:42,950 INFO spawned: 'horizon_00' with pid 28
+2024-07-02 21:45:42,983 INFO spawned: 'php-fpm' with pid 29
+2024-07-02 21:45:44,042 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 21:45:44,043 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 21:49:50,137 WARN received SIGQUIT indicating exit request
+2024-07-02 21:49:50,140 INFO waiting for horizon_00, php-fpm to die
+2024-07-02 21:49:50,150 INFO stopped: php-fpm (exit status 0)
+2024-07-02 21:49:52,215 INFO stopped: horizon_00 (exit status 0)
+2024-07-02 21:50:48,687 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-02 21:50:48,694 INFO supervisord started with pid 1
+2024-07-02 21:50:49,702 INFO spawned: 'horizon_00' with pid 28
+2024-07-02 21:50:49,706 INFO spawned: 'php-fpm' with pid 29
+2024-07-02 21:50:50,763 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-02 21:50:50,764 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:00:30,342 WARN received SIGQUIT indicating exit request
+2024-07-03 15:00:30,352 INFO waiting for horizon_00, php-fpm to die
+2024-07-03 15:00:30,363 INFO stopped: php-fpm (exit status 0)
+2024-07-03 15:00:32,537 INFO stopped: horizon_00 (exit status 0)
+2024-07-03 15:01:29,010 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-03 15:01:29,019 INFO supervisord started with pid 1
+2024-07-03 15:01:30,030 INFO spawned: 'horizon_00' with pid 7
+2024-07-03 15:01:30,031 INFO spawned: 'php-fpm' with pid 8
+2024-07-03 15:01:31,923 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:01:31,923 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:01:43,954 WARN received SIGQUIT indicating exit request
+2024-07-03 15:01:43,956 INFO waiting for horizon_00, php-fpm to die
+2024-07-03 15:01:44,974 INFO stopped: php-fpm (exit status 0)
+2024-07-03 15:01:46,987 INFO waiting for horizon_00 to die
+2024-07-03 15:01:47,088 INFO stopped: horizon_00 (exit status 0)
+2024-07-03 15:03:07,614 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-03 15:03:07,620 INFO supervisord started with pid 1
+2024-07-03 15:03:08,627 INFO spawned: 'horizon_00' with pid 28
+2024-07-03 15:03:08,647 INFO spawned: 'php-fpm' with pid 29
+2024-07-03 15:03:09,729 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:03:09,730 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:08:33,417 WARN received SIGQUIT indicating exit request
+2024-07-03 15:08:33,421 INFO waiting for horizon_00, php-fpm to die
+2024-07-03 15:08:33,446 INFO stopped: php-fpm (exit status 0)
+2024-07-03 15:08:35,567 INFO stopped: horizon_00 (exit status 0)
+2024-07-03 15:08:49,030 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-03 15:08:49,038 INFO supervisord started with pid 1
+2024-07-03 15:08:50,044 INFO spawned: 'horizon_00' with pid 27
+2024-07-03 15:08:50,045 INFO spawned: 'php-fpm' with pid 28
+2024-07-03 15:08:51,591 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:08:51,592 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:14:35,714 WARN received SIGQUIT indicating exit request
+2024-07-03 15:14:35,717 INFO waiting for horizon_00, php-fpm to die
+2024-07-03 15:14:36,733 INFO stopped: php-fpm (exit status 0)
+2024-07-03 15:14:38,744 INFO waiting for horizon_00 to die
+2024-07-03 15:14:38,777 INFO stopped: horizon_00 (exit status 0)
+2024-07-03 15:15:32,869 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-03 15:15:32,877 INFO supervisord started with pid 1
+2024-07-03 15:15:33,880 INFO spawned: 'horizon_00' with pid 28
+2024-07-03 15:15:33,881 INFO spawned: 'php-fpm' with pid 29
+2024-07-03 15:15:35,289 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:15:35,289 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:19:29,329 WARN received SIGQUIT indicating exit request
+2024-07-03 15:19:29,331 INFO waiting for horizon_00, php-fpm to die
+2024-07-03 15:19:30,346 INFO stopped: php-fpm (exit status 0)
+2024-07-03 15:19:32,358 INFO waiting for horizon_00 to die
+2024-07-03 15:19:33,391 INFO stopped: horizon_00 (exit status 0)
+2024-07-03 15:19:56,534 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-03 15:19:56,538 INFO supervisord started with pid 1
+2024-07-03 15:19:57,543 INFO spawned: 'horizon_00' with pid 28
+2024-07-03 15:19:57,544 INFO spawned: 'php-fpm' with pid 29
+2024-07-03 15:19:59,077 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:19:59,077 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:41:52,925 WARN received SIGQUIT indicating exit request
+2024-07-03 15:41:52,930 INFO waiting for horizon_00, php-fpm to die
+2024-07-03 15:41:53,961 INFO stopped: php-fpm (exit status 0)
+2024-07-03 15:41:55,973 INFO waiting for horizon_00 to die
+2024-07-03 15:41:56,002 INFO stopped: horizon_00 (exit status 0)
+2024-07-03 15:43:44,139 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-03 15:43:44,143 INFO supervisord started with pid 1
+2024-07-03 15:43:45,147 INFO spawned: 'horizon_00' with pid 28
+2024-07-03 15:43:45,148 INFO spawned: 'php-fpm' with pid 29
+2024-07-03 15:43:46,716 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:43:46,716 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 15:48:16,295 WARN received SIGQUIT indicating exit request
+2024-07-03 15:48:16,296 INFO waiting for horizon_00, php-fpm to die
+2024-07-03 15:48:16,304 INFO stopped: php-fpm (exit status 0)
+2024-07-03 15:48:18,351 INFO stopped: horizon_00 (exit status 0)
