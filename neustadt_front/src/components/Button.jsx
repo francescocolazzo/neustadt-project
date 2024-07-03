@@ -47,10 +47,7 @@ export default function Button({ code, setCards, onSelectSet }) {
         </Modal.Footer>
       </Modal>
 
-      <BootstrapButton
-        variant="outline-dark"
-        onClick={getCards}
-      >
+      <BootstrapButton variant="outline-dark" onClick={getCards}>
         <div className="d-flex justify-between align-items-baseline gap-2">
           <FontAwesomeIcon icon={faDownload} style={{ fontSize: "100%" }} />
           Get Cards

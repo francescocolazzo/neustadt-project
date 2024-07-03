@@ -24,6 +24,7 @@ make run-app
 
 
 *  To build and run the project for Windows, through terminal enter into project directory and launch the command:
+- copy .\src\.env.example .\src\.env
 - docker-compose build
 - docker-compose up -d
 - composer install && npm install && chmod -R 777 storage && php artisan key:generate && php artisan migrate:fresh --seed &&  php artisan storage:link

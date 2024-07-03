@@ -1,18 +1,16 @@
 .modal_img {
-    display: flex;
-    min-height: 700px;
-    border-radius: 8px;
-    background-size: cover !important;
-    background-position-x: center;
+  display: flex;
+  min-height: 700px;
+  border-radius: 8px;
+  background-size: cover !important;
+  background-position-x: center;
 }
 
-
-@media (max-width:991.98px) {
-    .fade {
-     margin-left: 0px !important;
-     margin-top: 30vh !important;
-     position: absolute !important;
-     z-index: auto !important;
-    }
-    
+@media (max-width: 991.98px) {
+  .fade {
+    margin-left: 0px !important;
+    margin-top: 30vh !important;
+    position: absolute !important;
+    z-index: auto !important;
+  }
 }

@@ -11,7 +11,7 @@ export default function ImageModal(imageProps) {
     if (show) {
       const image = axios
         .get(`http://localhost:8001/api/cards/${scryfallId}`)
-        .then((res) =>  setImage(res.data.data.card?.image_uris.normal));
+        .then((res) => setImage(res.data.data.card?.image_uris.normal));
     }
   }, [show]);
 

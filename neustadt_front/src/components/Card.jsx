@@ -50,7 +50,6 @@ const Card = ({ card, onDelete }) => {
           <FontAwesomeIcon icon={faTrash} />
         </button>
       </div>
-      {/* {console.log(card.path)} */}
       <ImageModal
         show={isShowed}
         onHide={() => SetShowed(!isShowed)}

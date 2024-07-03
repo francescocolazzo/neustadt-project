@@ -2,9 +2,9 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import CustomDropdown from "./components/CustomDropdown/CustomDropdown";
-import Grid from "./components/Grid";
 import Button from "./components/Button";
 import CustomSearch from "./components/CustomSearch";
+import Grid from "./components/Grid/Grid";
 
 const App = () => {
   const [sets, setSets] = useState([]);
@@ -47,7 +47,6 @@ const App = () => {
 
       <div className="mt-4">
         <Grid objectCards={objectCards} setCards={setCards} />
-        {/* <Pagination paginationObject={objectCards.pagination} /> */}
       </div>
     </div>
   );

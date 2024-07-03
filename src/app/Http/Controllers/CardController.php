@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Exceptions\CustomException;
 use Symfony\Component\HttpFoundation\Response;
 use App\Services\ScryfallService;
 use Illuminate\Http\JsonResponse;
@@ -104,7 +105,9 @@ class CardController extends Controller
             $cards     = $this->cardService->addCards(Arr::get($cardsData, 'data'));
         } catch (Exception $e) {
             app('log')->error($e->getMessage(), $e->getTrace());
-            throw new Exception($e->getMessage(), Response::HTTP_BAD_REQUEST);
+            throw new CustomException(
+                $e->getMessage(),[]
+            );
         }
 
         $cardResourceCollection = CardResourceCollection::make($cards);
