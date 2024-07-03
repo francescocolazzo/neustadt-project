@@ -179,3 +179,9 @@
 2024-07-03 15:48:16,296 INFO waiting for horizon_00, php-fpm to die
 2024-07-03 15:48:16,304 INFO stopped: php-fpm (exit status 0)
 2024-07-03 15:48:18,351 INFO stopped: horizon_00 (exit status 0)
+2024-07-03 16:12:09,891 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-03 16:12:09,896 INFO supervisord started with pid 1
+2024-07-03 16:12:10,898 INFO spawned: 'horizon_00' with pid 28
+2024-07-03 16:12:10,900 INFO spawned: 'php-fpm' with pid 29
+2024-07-03 16:12:12,546 INFO success: horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-03 16:12:12,550 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
