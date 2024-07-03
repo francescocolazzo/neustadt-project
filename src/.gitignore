@@ -20,3 +20,4 @@ yarn-error.log
 /.vscode
 /storage/app/pubblic
 supervisord.pid
+supervisord.log
