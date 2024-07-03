@@ -20,9 +20,9 @@ To get started with this project, you will need to have on your local machine Do
 
 * Makefile described below is usefull for operating systems of the UNIX family.
 To build and run the project, through the terminal enter into project directory and launch the command
- - make run-app
+make run-app
 
 
 *  To build and run the project for Windows, double click on:
- - run-app.bat
+run-app.bat
 
