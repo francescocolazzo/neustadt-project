@@ -18,12 +18,16 @@
 
 To get started with this project, you will need to have on your local machine Docker Desktop (`https://www.docker.com/products/docker-desktop`).
 
-* Makefile described below is usefull for operating systems of the UNIX family.
-To build and run the project, through terminal enter into project directory and launch the command:
-make run-app
+* For UNIX-based Operating Systems
+- Open a terminal.
+- Navigate to the project directory.
+- Run the following command: make run-app
 
 
-*  To build and run the project for Windows, through terminal enter into project directory and launch the command:
+* For Windows
+- Open a terminal.
+- Navigate to the project directory.
+- Run the following command:
 - copy .\src\.env.example .\src\.env
 - docker-compose build
 - docker-compose up -d
