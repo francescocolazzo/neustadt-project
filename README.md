@@ -18,19 +18,22 @@
 
 To get started with this project, you will need to have on your local machine Docker Desktop (`https://www.docker.com/products/docker-desktop`).
 
-* For UNIX-based Operating Systems
+## For UNIX-based Operating Systems
 - Open a terminal.
 - Navigate to the project directory.
 - Run the following command: make run-app
 
 
-* For Windows
+## For Windows
 - Open a terminal.
 - Navigate to the project directory.
 - Run the following command:
 - copy .\src\.env.example .\src\.env
 - docker-compose build
 - docker-compose up -d
+- docker exec php /bin/sh 
+
+Inside PHP CONTAINER:
 - composer install && npm install && chmod -R 777 storage && php artisan key:generate && php artisan migrate:fresh --seed &&  php artisan storage:link
 
 
