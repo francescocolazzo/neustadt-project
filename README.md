@@ -27,8 +27,9 @@ To get started with this project, you will need to have on your local machine Do
 ## For Windows
 - Open a terminal.
 - Navigate to the project directory.
-- Run the following command:
-- copy .\src\.env.example .\src\.env
+- Into folder src duplicate .env.example and rename the new file in .env
+
+- Go back into project directory (neustadt-project) and run the following command:
 - docker-compose build
 - docker-compose up -d
 - docker exec php /bin/sh 
